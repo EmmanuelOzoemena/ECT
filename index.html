@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ECT</title>
+
+  <!-- css link -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- font awesome 4 cdn -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- boxicons link -->
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+  />
+</head>
+<body>
+  <!-- Header -->
+  <header >
+    <div class="logo">ECT</div>
+    <nav id="nav-links">
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">About Us</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <!-- <div class="navlist">
+      <button class="cta-button">Sign Up</button>
+      <button class="cta-button">Login</button>
+    </div> -->
+
+    <div class="bx bx-menu" id="menu-icon"></div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Simplify Your Recharges with Expansion Cyber Technologies</h1>
+    <p>Fast, Reliable, and Secure Virtual Top-Ups</p>
+    <button class="cta-button">Get Started Now</button>
+  </section>
+
+  <!-- Features section -->
+  <section class="features">
+    <div class="feature">
+      <h2>Secure Transactions</h2>
+      <p>We ensure your transactions are safe and protected.</p>
+    </div>
+    <div class="feature">
+      <h2>Wide Range of Services</h2>
+      <p>Top-up your mobile, data plans, and pay utility bills with ease.</p>
+    </div>
+    <div class="feature">
+      <h2>24/7 Customer Support</h2>
+      <p>Our support team is always here to help you.</p>
+    </div>
+  </section>
+
+  <!-- Testimonial Section -->
+  <section class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever
+          </p>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <img src="./images/user-1.png" alt="user picture 1" />
+          <h3>Sean Parker</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever
+          </p>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <img src="./images/user-3.png" alt="user picture 1" />
+          <h3>Sean Parker</h3>
+        </div>
+
+        <div class="col-3">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever
+          </p>
+          <div class="rating">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <img src="./images/user-2.png" alt="user picture 2" />
+          <h3>Mike Smith</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Follow us on:</p>
+    <div class="social-media-links">
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+      <a href="#">Instagram</a>
+    </div>
+    <div>
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="https://x.com/Emmanuel_Oz1" target="_blank"
+        >Developed by Emmanuel Ozoemena</a
+      >
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("menu-icon").onclick = function() {
+      var nav = document.getElementById("nav-links");
+      if (nav.style.display === "block") {
+        nav.style.display = "none";
+      } else {
+        nav.style.display = "block";
+      }
+    };
+  </script>
+</body>
+</html>
