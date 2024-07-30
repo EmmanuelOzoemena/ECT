@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Remix icon cdn -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+
+    <!-- style (css) link -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>LegalEdge | Trusted Legal Expertise</title>
+  </head>
+  <body>
+    <header>
+      <nav class="section-container nav-container">
+        <a class="nav-logo" href="index.html">Legal<span>Edge</span></a>
+        <ul class="nav-links">
+          <li class="link"><a href="index.html">Home</a></li>
+          <li class="link"><a href="about.html">About Us</a></li>
+          <li class="link"><a href="service.html">Services</a></li>
+          <li class="link"><a href="attorney.html">Attorneys</a></li>
+          <li class="link"><a href="#">Blog</a></li>
+        </ul>
+        <button class="btn" id="contactUsBtn">Contact Us</button>
+      </nav>
+    </header>
+
+    <section class="section-container service-container" id="service">
+      <div class="service-header">
+        <div class="service-header-content">
+          <h2 class="section-header">Expert Legal Services</h2>
+          <p>
+            Beyond simply providing legal representation, our commitment lies in
+            delivering unparalleled service tailored to your unique legal needs.
+          </p>
+        </div>
+        <button class="service-btn">Request Legal Assistance</button>
+      </div>
+      <div class="service-grid">
+        <div class="service-card">
+          <span><i class="ri-scales-3-line"></i></span>
+          <h4>Legal Consultation</h4>
+          <p>
+            Expert Advice, Tailored Solutions: Receive top-notch legal
+            consultation tailored to your specific needs.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <span><i class="ri-file-list-3-line"></i></span>
+          <h4>Case Management</h4>
+          <p>
+            Comprehensive Management, Effective Results: Our thorough case
+            management ensures your case is handled efficiently and effectively.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+
+        <div class="service-card">
+          <span><i class="ri-auction-line"></i></span>
+          <h4>Litigation Support</h4>
+          <p>
+            Dedicated Representation, Proven Success: Trust our experienced
+            litigators to represent you in court and achieve the best outcomes.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section-container footer-container">
+        <div class="footer-col">
+          <h3>Legal<span>Edge</span></h3>
+          <p>
+            We are honored to be a part of your legal journey and are committed
+            to delivering compassionate, personalized, and expert legal services
+            every step of the way.
+          </p>
+          <p>
+            Trust us with your legal needs, and let us work together to achieve
+            the best possible outcomes for you and your loved ones.
+          </p>
+        </div>
+        <div class="footer-col">
+          <h4>About Us</h4>
+          <p>Home</p>
+          <p>About Us</p>
+          <p>Work With Us</p>
+          <p>Our Blog</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="footer-col">
+          <h4>Services</h4>
+          <p>Search Terms</p>
+          <p>Advance Search</p>
+          <p>Privacy Policy</p>
+          <p>Affiliated Partners</p>
+          <p>Our Offices</p>
+        </div>
+        <div class="footer-col">
+          <h4>Contact Us</h4>
+          <p>
+            <i class="ri-map-pin-2-fill"></i> 123, London Bridge Street, London
+          </p>
+          <p><i class="ri-mail-fill"></i> support@legaledge.com</p>
+          <p><i class="ri-phone-fill"></i> (+012) 3456 789</p>
+        </div>
+      </div>
+      <div class="footer-bar">
+        <div class="footer-bar-content">
+          <a href="https://x.com/Emmanuel_Oz1" target="_blank"
+            >Developed by Emmanuel Ozoemena</a
+          >
+          <p>All rights reserved.</p>
+          <div class="footer-socials">
+            <span><i class="ri-instagram-line"></i></span>
+            <span><i class="ri-facebook-fill"></i></span>
+            <span><i class="ri-heart-fill"></i></span>
+            <span><i class="ri-twitter-fill"></i></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <div id="contactFormPopup" class="popup">
+      <div class="popup-content">
+        <span class="close" id="closePopup">&times;</span>
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
